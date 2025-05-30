@@ -12,19 +12,20 @@ This is a simple full-stack note-taking application built using:
 ## 🧱 Project Structure
 
 NoteApp/
-├── note-app/ # Node.js Express API
-│ ├── controllers/
-│ ├── routes/
-│ ├── server.js
-│ └── package.json
-├── note-app.fe/ # React App
-│ ├── src/
-│ │ ├── api/
-│ │ ├── components/
-│ │ ├── App.js
-│ │ └── index.js
-│ └── package.json
-└── README.md
+├── note-app/ <!-- Node.js Express API -->
+│   ├── controllers/ <!-- Handles logic for each route -->
+│   ├── routes/ <!-- API route definitions -->
+│   ├── server.js <!-- Entry point of backend app -->
+│   └── package.json <!-- Backend dependencies and scripts -->
+├── note-app-fe/ <!-- React application -->
+│   ├── public/ <!-- Public static files -->
+│   ├── src/
+│   │   ├── api/ <!-- Axios HTTP client setup -->
+│   │   ├── components/ <!-- Reusable React components -->
+│   │   ├── App.js <!-- Main React component -->
+│   │   └── index.js <!-- Entry point of React app -->
+│   └── package.json <!-- Frontend dependencies and scripts -->
+└── README.md <!-- Project documentation -->
 
 
 ---
